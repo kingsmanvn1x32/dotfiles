@@ -2,5 +2,6 @@
   <arch>x86_64-v3</arch>
   <autodelete>true</autodelete>
   <getffmpeg>true</getffmpeg>
+  <getytdl>ytdlp</getytdl>
   <ytdlpchannel>nightly</ytdlpchannel>
 </settings>

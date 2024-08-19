@@ -1,0 +1,626 @@
+[   0.000][v][cplayer] Command line options: '-' '--demuxer-lavf-format=mpegts'
+[   0.000][v][cplayer] mpv v0.38.0-641-g6107112b Copyright © 2000-2024 mpv/MPlayer/mplayer2 projects
+[   0.000][v][cplayer]  built on Jul 26 2024 19:04:40
+[   0.000][v][cplayer] libplacebo version: v7.349.0 (v7.349.0-dirty)
+[   0.000][v][cplayer] FFmpeg version: N-116435-g719e46f54
+[   0.000][v][cplayer] FFmpeg library versions:
+[   0.000][v][cplayer]    libavcodec      61.10.100
+[   0.000][v][cplayer]    libavdevice     61.2.100
+[   0.000][v][cplayer]    libavfilter     10.2.102
+[   0.000][v][cplayer]    libavformat     61.5.101
+[   0.000][v][cplayer]    libavutil       59.29.100
+[   0.000][v][cplayer]    libswresample   5.2.100
+[   0.000][v][cplayer]    libswscale      8.2.100
+[   0.000][v][cplayer] Configuration: -Ddebug=true -Db_ndebug=true -Doptimization=3 -Db_lto=true -Db_lto_mode=thin -Dlibmpv=true -Dpdf-build=enabled -Dlua=enabled -Djavascript=enabled -Dsdl2=enabled -Dlibarchive=enabled -Dlibbluray=enabled -Ddvdnav=enabled -Duchardet=enabled -Drubberband=enabled -Dlcms2=enabled -Dopenal=enabled -Dspirv-cross=enabled -Dvulkan=enabled -Dvapoursynth=enabled -Degl-angle=enabled -Dc_args=-Wno-error=int-conversion -Dprefix=/__w/mpv-winbuild/mpv-winbuild/mpv-winbuild-cmake/build64-v3/install/x86_64-w64-mingw32 -Dlibdir=/__w/mpv-winbuild/mpv-winbuild/mpv-winbuild-cmake/build64-v3/install/x86_64-w64-mingw32/lib -Ddefault_library=shared -Dprefer_static=True --cross-file=/__w/mpv-winbuild/mpv-winbuild/mpv-winbuild-cmake/build64-v3/meson_cross.txt
+[   0.000][v][cplayer] List of enabled features: build-date cplugins cuda-hwaccel cuda-interop d3d-hwaccel d3d11 d3d9-hwaccel debug direct3d dos-paths dvdnav dxgi-debug dxgi-debug-d3d11 egl-angle egl-angle-win32 ffmpeg ffnvcodec gl gl-dxinterop gl-dxinterop-d3d9 gl-win32 glob glob-win32 gpl iconv javascript jpeg lcms2 libarchive libass libavdevice libbluray libplacebo luajit openal pathcch rubberband rubberband-3 sdl2 sdl2-audio sdl2-gamepad sdl2-video shaderc spirv-cross uchardet vaapi vaapi-win32 vapoursynth vector vulkan vulkan-interop wasapi win32 win32-desktop win32-executable win32-threads zimg zimg-st428 zlib
+[   0.000][v][cplayer] Built with NDEBUG.
+[   0.000][d][global] home path: '' -> 'D:/mpv/portable_config'
+[   0.000][d][global] user path: '~~home/' -> 'D:/mpv/portable_config'
+[   0.000][d][global] user path: '~~old_home/' -> ''
+[   0.000][d][global] config path: 'encoding-profiles.conf' -/-> 'D:/mpv/portable_config/encoding-profiles.conf'
+[   0.000][d][global] config path: 'mpv.conf' -> 'D:/mpv/portable_config/mpv.conf'
+[   0.000][d][global] config path: 'config' -/-> 'D:/mpv/portable_config/config'
+[   0.000][v][cplayer] Reading config file D:/mpv/portable_config/mpv.conf
+[   0.000][v][ifo_dvdnav] Opening D:/mpv/portable_config/mpv.conf
+[   0.000][v][bdmv/bluray] Opening D:/mpv/portable_config/mpv.conf
+[   0.000][v][file] Opening D:/mpv/portable_config/mpv.conf
+[   0.000][d][file] resize stream to 131072 bytes, drop 0 bytes
+[   0.000][d][file] Stream opened successfully.
+[   0.000][v][cplayer] Applying profile 'default'...
+[   0.000][v][cplayer] Setting option 'ontop' = '' (flags = 4)
+[   0.000][v][cplayer] Setting option 'save-position-on-quit' = 'yes' (flags = 4)
+[   0.000][v][cplayer] Setting option 'osd-on-seek' = 'no' (flags = 4)
+[   0.000][v][cplayer] Setting option 'osd-font-size' = '24' (flags = 4)
+[   0.000][v][cplayer] Setting option 'keep-open' = 'yes' (flags = 4)
+[   0.000][v][cplayer] Setting option 'force-window' = 'immediate' (flags = 4)
+[   0.000][v][cplayer] Setting option 'geometry' = '25%x25%-10-10' (flags = 4)
+[   0.000][v][cplayer] Setting option 'load-unsafe-playlists' = 'yes' (flags = 4)
+[   0.000][v][cplayer] Setting option 'user-agent' = 'Mozilla/5.0 (Windows NT 10.0; rv:109.0) Gecko/20100101 Firefox/115.0' (flags = 4)
+[   0.000][v][cplayer] Setting option 'force-seekable' = 'yes' (flags = 4)
+[   0.000][v][cplayer] Setting option 'hr-seek' = 'yes' (flags = 4)
+[   0.000][v][cplayer] Setting option 'hr-seek-framedrop' = 'yes' (flags = 4)
+[   0.000][v][cplayer] Setting option 'screenshot-directory' = '~~/screenshots' (flags = 4)
+[   0.000][v][cplayer] Setting option 'log-file' = 'log.txt' (flags = 4)
+[   0.000][v][cplayer] Setting option 'osc' = 'no' (flags = 4)
+[   0.000][v][cplayer] Setting option 'osd-bar' = 'no' (flags = 4)
+[   0.000][v][cplayer] Setting option 'border' = 'no' (flags = 4)
+[   0.000][v][cplayer] Setting option 'hwdec' = 'auto-safe' (flags = 4)
+[   0.000][v][cplayer] Setting option 'vo' = 'gpu-next' (flags = 4)
+[   0.000][v][cplayer] Setting option 'tscale' = 'nearest' (flags = 4)
+[   0.000][v][cplayer] Setting option 'interpolation' = 'no' (flags = 4)
+[   0.000][v][cplayer] Setting option 'scale' = 'bilinear' (flags = 4)
+[   0.000][v][cplayer] Setting option 'cscale' = 'bilinear' (flags = 4)
+[   0.000][v][cplayer] Setting option 'dscale' = 'bilinear' (flags = 4)
+[   0.000][v][cplayer] Setting option 'sws-scaler' = 'fast-bilinear' (flags = 4)
+[   0.000][v][cplayer] Setting option 'dither' = 'no' (flags = 4)
+[   0.000][v][cplayer] Setting option 'correct-downscaling' = 'no' (flags = 4)
+[   0.000][v][cplayer] Setting option 'linear-downscaling' = 'no' (flags = 4)
+[   0.000][v][cplayer] Setting option 'sigmoid-upscaling' = 'no' (flags = 4)
+[   0.000][v][cplayer] Setting option 'hdr-compute-peak' = 'no' (flags = 4)
+[   0.000][v][cplayer] Setting option 'volume-max' = '200' (flags = 4)
+[   0.000][v][cplayer] Setting option 'volume' = '100' (flags = 4)
+[   0.000][v][cplayer] Setting option 'cache' = 'yes' (flags = 4)
+[   0.000][v][cplayer] Setting option 'cache-secs' = '600' (flags = 4)
+[   0.000][v][cplayer] Setting option 'demuxer-thread' = 'yes' (flags = 4)
+[   0.000][v][cplayer] Setting option 'demuxer-max-bytes' = '1GiB' (flags = 4)
+[   0.000][v][cplayer] Setting option 'demuxer-max-back-bytes' = '500MiB' (flags = 4)
+[   0.000][v][cplayer] Setting option 'demuxer-readahead-secs' = '300' (flags = 4)
+[   0.000][v][cplayer] Setting option 'network-timeout' = '100' (flags = 4)
+[   0.000][v][cplayer] Setting option 'stream-lavf-o-append' = 'reconnect_on_http_error=4xx,5xx' (flags = 4)
+[   0.000][v][cplayer] Setting option 'stream-lavf-o-append' = 'reconnect_delay_max=30' (flags = 4)
+[   0.000][v][cplayer] Setting option 'stream-lavf-o-append' = 'reconnect_streamed=yes' (flags = 4)
+[   0.000][v][cplayer] Setting option 'ytdl-raw-options-append' = 'no-check-certificates=' (flags = 4)
+[   0.000][v][cplayer] Setting option 'ytdl-raw-options-append' = 'yes-playlist=' (flags = 4)
+[   0.000][v][cplayer] Setting option 'ytdl-raw-options-append' = 'sub-langs=vi,vi-VN,vie,en,en-US,eng,live_chat' (flags = 4)
+[   0.000][v][cplayer] Setting option 'ytdl-raw-options-append' = 'write-sub=' (flags = 4)
+[   0.000][v][cplayer] Setting option 'ytdl-raw-options-append' = 'write-auto-sub=' (flags = 4)
+[   0.000][v][cplayer] Setting option 'ytdl-raw-options-append' = 'add-metadata=' (flags = 4)
+[   0.000][v][cplayer] Setting option 'ytdl-raw-options-append' = 'audio-multistreams=' (flags = 4)
+[   0.000][v][cplayer] Setting option 'ytdl-raw-options-append' = 'video-multistreams=' (flags = 4)
+[   0.000][v][cplayer] Setting option 'ytdl-raw-options-append' = 'cookies-from-browser=firefox:C:\Users\King1x32\AppData\Roaming\Floorp\Profiles\mxh4ksns.default-release' (flags = 4)
+[   0.000][v][cplayer] Setting option 'ytdl-raw-options-append' = 'mark-watched=' (flags = 4)
+[   0.000][v][cplayer] Setting option 'demuxer-lavf-format' = 'mpegts' (flags = 8)
+[   0.000][d][global] config path: 'input.conf' -> 'D:/mpv/portable_config/input.conf'
+[   0.000][d][global] user path: 'D:/mpv/portable_config/input.conf' -> 'D:/mpv/portable_config/input.conf'
+[   0.000][v][ifo_dvdnav] Opening D:/mpv/portable_config/input.conf
+[   0.000][v][bdmv/bluray] Opening D:/mpv/portable_config/input.conf
+[   0.000][v][file] Opening D:/mpv/portable_config/input.conf
+[   0.000][d][file] resize stream to 131072 bytes, drop 0 bytes
+[   0.000][d][file] Stream opened successfully.
+[   0.000][v][input] Parsing input config file D:/mpv/portable_config/input.conf
+[   0.000][v][input] Input config file D:/mpv/portable_config/input.conf parsed: 53 binds
+[   0.000][d][global] user path: 'log.txt' -> 'log.txt'
+[   0.036][v][cplayer] mpv v0.38.0-641-g6107112b Copyright © 2000-2024 mpv/MPlayer/mplayer2 projects
+[   0.036][v][cplayer]  built on Jul 26 2024 19:04:40
+[   0.036][v][cplayer] libplacebo version: v7.349.0 (v7.349.0-dirty)
+[   0.036][v][cplayer] FFmpeg version: N-116435-g719e46f54
+[   0.036][v][cplayer] FFmpeg library versions:
+[   0.036][v][cplayer]    libavcodec      61.10.100
+[   0.036][v][cplayer]    libavdevice     61.2.100
+[   0.036][v][cplayer]    libavfilter     10.2.102
+[   0.036][v][cplayer]    libavformat     61.5.101
+[   0.036][v][cplayer]    libavutil       59.29.100
+[   0.036][v][cplayer]    libswresample   5.2.100
+[   0.036][v][cplayer]    libswscale      8.2.100
+[   0.036][v][cplayer] Configuration: -Ddebug=true -Db_ndebug=true -Doptimization=3 -Db_lto=true -Db_lto_mode=thin -Dlibmpv=true -Dpdf-build=enabled -Dlua=enabled -Djavascript=enabled -Dsdl2=enabled -Dlibarchive=enabled -Dlibbluray=enabled -Ddvdnav=enabled -Duchardet=enabled -Drubberband=enabled -Dlcms2=enabled -Dopenal=enabled -Dspirv-cross=enabled -Dvulkan=enabled -Dvapoursynth=enabled -Degl-angle=enabled -Dc_args=-Wno-error=int-conversion -Dprefix=/__w/mpv-winbuild/mpv-winbuild/mpv-winbuild-cmake/build64-v3/install/x86_64-w64-mingw32 -Dlibdir=/__w/mpv-winbuild/mpv-winbuild/mpv-winbuild-cmake/build64-v3/install/x86_64-w64-mingw32/lib -Ddefault_library=shared -Dprefer_static=True --cross-file=/__w/mpv-winbuild/mpv-winbuild/mpv-winbuild-cmake/build64-v3/meson_cross.txt
+[   0.036][v][cplayer] List of enabled features: build-date cplugins cuda-hwaccel cuda-interop d3d-hwaccel d3d11 d3d9-hwaccel debug direct3d dos-paths dvdnav dxgi-debug dxgi-debug-d3d11 egl-angle egl-angle-win32 ffmpeg ffnvcodec gl gl-dxinterop gl-dxinterop-d3d9 gl-win32 glob glob-win32 gpl iconv javascript jpeg lcms2 libarchive libass libavdevice libbluray libplacebo luajit openal pathcch rubberband rubberband-3 sdl2 sdl2-audio sdl2-gamepad sdl2-video shaderc spirv-cross uchardet vaapi vaapi-win32 vapoursynth vector vulkan vulkan-interop wasapi win32 win32-desktop win32-executable win32-threads zimg zimg-st428 zlib
+[   0.036][v][cplayer] Built with NDEBUG.
+[   0.036][d][ytdl_hook] Loading lua script @ytdl_hook.lua...
+[   0.036][d][stats] Loading lua script @stats.lua...
+[   0.036][d][console] Loading lua script @console.lua...
+[   0.036][d][auto_profiles] Loading lua script @auto_profiles.lua...
+[   0.036][d][select] Loading lua script @select.lua...
+[   0.037][d][ytdl_hook] loading mp.defaults
+[   0.045][d][console] loading mp.defaults
+[   0.045][d][stats] loading mp.defaults
+[   0.046][d][auto_profiles] loading mp.defaults
+[   0.046][d][stats] loading @stats.lua
+[   0.046][d][auto_profiles] loading @auto_profiles.lua
+[   0.048][v][vo/gpu-next] Probing for best GPU context.
+[   0.048][v][vo/gpu-next/auto] Initializing GPU context 'auto'
+[   0.048][v][vo/gpu-next/d3d11] Initializing GPU context 'd3d11'
+[   0.048][d][console] loading @console.lua
+[   0.048][d][select] loading mp.defaults
+[   0.049][d][select] loading @select.lua
+[   0.050][d][ytdl_hook] loading @ytdl_hook.lua
+[   0.051][d][ytdl_hook] reading options for ytdl_hook
+[   0.052][d][global] config path: 'script-opts/ytdl_hook.conf' -/-> 'D:/mpv/portable_config/script-opts/ytdl_hook.conf'
+[   0.052][d][ytdl_hook] script-opts/ytdl_hook.conf not found.
+[   0.052][d][global] config path: 'lua-settings/ytdl_hook.conf' -/-> 'D:/mpv/portable_config/lua-settings/ytdl_hook.conf'
+[   0.052][d][ytdl_hook] lua-settings/ytdl_hook.conf not found.
+[   0.062][d][stats] reading options for stats
+[   0.062][d][global] config path: 'script-opts/stats.conf' -/-> 'D:/mpv/portable_config/script-opts/stats.conf'
+[   0.062][d][stats] script-opts/stats.conf not found.
+[   0.063][d][global] config path: 'lua-settings/stats.conf' -/-> 'D:/mpv/portable_config/lua-settings/stats.conf'
+[   0.063][d][stats] lua-settings/stats.conf not found.
+[   0.130][v][vo/gpu-next/d3d11] Using Direct3D 11 feature level 12_1
+[   0.130][v][vo/gpu-next/d3d11] Device Name: Intel(R) UHD Graphics 620
+[   0.130][v][vo/gpu-next/d3d11] Device ID: 8086:3ea0 (rev 00)
+[   0.130][v][vo/gpu-next/d3d11] Subsystem ID: 1043:17e1
+[   0.130][v][vo/gpu-next/d3d11] LUID: 000000000000d6d4
+[   0.130][v][vo/gpu-next/d3d11] Initializing SPIR-V compiler 'shaderc'
+[   0.130][v][vo/gpu-next/d3d11] Using Direct3D 11.1 runtime
+[   0.130][v][vo/gpu-next/d3d11] Maximum Texture2D size: 16384x16384
+[   0.132][v][vo/gpu-next/d3d11] D3DCompiler version: 10.0.26100.1150
+[   0.247][v][vo/gpu-next/d3d11] Using DXGI 1.2+
+[   0.247][v][vo/gpu-next/d3d11] Queried output: \\.\DISPLAY1, 1920x1080 @ 8 bits, colorspace: RGB_FULL_G22_NONE_P709 (0)
+[   0.247][v][vo/gpu-next/d3d11] Selected swapchain format R8G8B8A8_UNORM (28), attempting to utilize it.
+[   0.248][v][vo/gpu-next/d3d11] Selected swapchain color space RGB_FULL_G22_NONE_P709 (0), attempting to utilize it.
+[   0.248][v][vo/gpu-next/d3d11] Swapchain capabilities for color space RGB_FULL_G22_NONE_P709 (0): normal: yes, overlay: yes
+[   0.248][v][vo/gpu-next/d3d11] Swapchain successfully configured to color space RGB_FULL_G22_NONE_P709 (0)!
+[   0.248][v][vo/gpu-next/d3d11] Using flip-model presentation
+[   0.248][v][vo/gpu-next/libplacebo] Initialized libplacebo v7.349.0 (v7.349.0-dirty) (API v349)
+[   0.248][v][vo/gpu-next/libplacebo] Using DXGI 1.2+
+[   0.248][v][vo/gpu-next/libplacebo] Using Direct3D 11 feature level 12_1
+[   0.248][v][vo/gpu-next/libplacebo] Direct3D 11 device properties:
+[   0.248][v][vo/gpu-next/libplacebo]     Device Name: Intel(R) UHD Graphics 620
+[   0.248][v][vo/gpu-next/libplacebo]     Device ID: 8086:3ea0 (rev 00)
+[   0.248][v][vo/gpu-next/libplacebo]     Subsystem ID: 1043:17e1
+[   0.248][v][vo/gpu-next/libplacebo]     LUID: 000000000000d6d4
+[   0.249][v][vo/gpu-next/libplacebo]     Driver version: 27.20.100.8681
+[   0.249][v][vo/gpu-next/libplacebo] shaderc SPIR-V version 1.6 rev 1
+[   0.249][v][vo/gpu-next/libplacebo] Initialized SPIR-V compiler 'shaderc'
+[   0.249][v][vo/gpu-next/libplacebo] Using Direct3D 11.4 runtime
+[   0.249][v][vo/gpu-next/libplacebo] D3DCompiler version: 10.0.26100.1150
+[   0.249][v][vo/gpu-next/libplacebo] GPU information:
+[   0.249][v][vo/gpu-next/libplacebo]     GLSL version: 450 (vulkan)
+[   0.249][v][vo/gpu-next/libplacebo]       max_shmem_size:            32768
+[   0.249][v][vo/gpu-next/libplacebo]       max_group_threads:         1024
+[   0.249][v][vo/gpu-next/libplacebo]       max_group_size[0]:         1024
+[   0.249][v][vo/gpu-next/libplacebo]       max_group_size[1]:         1024
+[   0.249][v][vo/gpu-next/libplacebo]       max_group_size[2]:         64
+[   0.249][v][vo/gpu-next/libplacebo]       subgroup_size:             0
+[   0.249][v][vo/gpu-next/libplacebo]       min_gather_offset:         -32
+[   0.249][v][vo/gpu-next/libplacebo]       max_gather_offset:         31
+[   0.249][v][vo/gpu-next/libplacebo]     Limits:
+[   0.249][v][vo/gpu-next/libplacebo]       thread_safe:               0
+[   0.249][v][vo/gpu-next/libplacebo]       callbacks:                 0
+[   0.249][v][vo/gpu-next/libplacebo]       max_buf_size:              134217728
+[   0.249][v][vo/gpu-next/libplacebo]       max_ubo_size:              65536
+[   0.249][v][vo/gpu-next/libplacebo]       max_ssbo_size:             134217728
+[   0.249][v][vo/gpu-next/libplacebo]       max_vbo_size:              134217728
+[   0.249][v][vo/gpu-next/libplacebo]       max_mapped_size:           0
+[   0.249][v][vo/gpu-next/libplacebo]       max_buffer_texels:         134217728
+[   0.249][v][vo/gpu-next/libplacebo]       align_host_ptr:            0
+[   0.249][v][vo/gpu-next/libplacebo]       host_cached:               0
+[   0.249][v][vo/gpu-next/libplacebo]       max_tex_1d_dim:            16384
+[   0.249][v][vo/gpu-next/libplacebo]       max_tex_2d_dim:            16384
+[   0.249][v][vo/gpu-next/libplacebo]       max_tex_3d_dim:            2048
+[   0.249][v][vo/gpu-next/libplacebo]       blittable_1d_3d:           1
+[   0.249][v][vo/gpu-next/libplacebo]       buf_transfer:              0
+[   0.249][v][vo/gpu-next/libplacebo]       align_tex_xfer_pitch:      1
+[   0.249][v][vo/gpu-next/libplacebo]       align_tex_xfer_offset:     32
+[   0.249][v][vo/gpu-next/libplacebo]       max_variable_comps:        0
+[   0.249][v][vo/gpu-next/libplacebo]       max_constants:             0
+[   0.249][v][vo/gpu-next/libplacebo]       max_pushc_size:            0
+[   0.250][v][vo/gpu-next/libplacebo]       align_vertex_stride:       1
+[   0.250][v][vo/gpu-next/libplacebo]       max_dispatch[0]:           65535
+[   0.250][v][vo/gpu-next/libplacebo]       max_dispatch[1]:           65535
+[   0.250][v][vo/gpu-next/libplacebo]       max_dispatch[2]:           65535
+[   0.250][v][vo/gpu-next/libplacebo]       fragment_queues:           1
+[   0.250][v][vo/gpu-next/libplacebo]       compute_queues:            1
+[   0.250][d][vo/gpu-next/libplacebo] GPU texture formats:
+[   0.250][d][vo/gpu-next/libplacebo]     NAME                 TYPE   SIZE COMP CAPS         EMU DEPTH         HOST_BITS     GLSL_TYPE  GLSL_FMT   FOURCC
+[   0.250][d][vo/gpu-next/libplacebo]     r8                   UNORM  1    R    SsLRbBVutHWG n   {8  0  0  0 } {8  0  0  0 } float      r8         R8    
+[   0.250][d][vo/gpu-next/libplacebo]     r8s                  SNORM  1    R    SsLRbBVutH-G n   {8  0  0  0 } {8  0  0  0 } float      r8_snorm         
+[   0.250][d][vo/gpu-next/libplacebo]     rg8                  UNORM  2    RG   SsLRbBVutH-G n   {8  8  0  0 } {8  8  0  0 } vec2       rg8        GR88  
+[   0.250][d][vo/gpu-next/libplacebo]     rg8s                 SNORM  2    RG   SsLRbBVutH-G n   {8  8  0  0 } {8  8  0  0 } vec2       rg8_snorm        
+[   0.250][d][vo/gpu-next/libplacebo]     rgba8                UNORM  4    RGBA SsLRbBVutHWG n   {8  8  8  8 } {8  8  8  8 } vec4       rgba8      AB24  
+[   0.250][d][vo/gpu-next/libplacebo]     rgba8s               SNORM  4    RGBA SsLRbBVutH-G n   {8  8  8  8 } {8  8  8  8 } vec4       rgba8_snorm       
+[   0.250][d][vo/gpu-next/libplacebo]     bgra8                UNORM  4    BGRA SsLRbBVutHWG n   {8  8  8  8 } {8  8  8  8 } vec4       rgba8      AR24  
+[   0.250][d][vo/gpu-next/libplacebo]     rgb10a2              UNORM  4    RGBA SsLRbBVutH-G n   {10 10 10 2 } {10 10 10 2 } vec4       rgb10_a2   AB30  
+[   0.250][d][vo/gpu-next/libplacebo]     rg11b10f             FLOAT  4    RGB  SsLRbBVutH-G n   {11 11 10 0 } {11 11 10 0 } vec3       r11f_g11f_b10f       
+[   0.250][d][vo/gpu-next/libplacebo]     r16                  UNORM  2    R    SsLRbBVutH-G n   {16 0  0  0 } {16 0  0  0 } float      r16        R16   
+[   0.250][d][vo/gpu-next/libplacebo]     r16hf                FLOAT  2    R    SsLRbBVutHWG n   {16 0  0  0 } {16 0  0  0 } float      r16f             
+[   0.250][d][vo/gpu-next/libplacebo]     r16s                 SNORM  2    R    SsLRbBVutH-G n   {16 0  0  0 } {16 0  0  0 } float      r16_snorm        
+[   0.250][d][vo/gpu-next/libplacebo]     rg16                 UNORM  4    RG   SsLRbBVutH-G n   {16 16 0  0 } {16 16 0  0 } vec2       rg16       GR32  
+[   0.250][d][vo/gpu-next/libplacebo]     rg16hf               FLOAT  4    RG   SsLRbBVutH-G n   {16 16 0  0 } {16 16 0  0 } vec2       rg16f            
+[   0.250][d][vo/gpu-next/libplacebo]     rg16s                SNORM  4    RG   SsLRbBVutH-G n   {16 16 0  0 } {16 16 0  0 } vec2       rg16_snorm       
+[   0.250][d][vo/gpu-next/libplacebo]     rgba16               UNORM  8    RGBA SsLRbBVutH-G n   {16 16 16 16} {16 16 16 16} vec4       rgba16     AB48  
+[   0.250][d][vo/gpu-next/libplacebo]     rgba16hf             FLOAT  8    RGBA SsLRbBVutHWG n   {16 16 16 16} {16 16 16 16} vec4       rgba16f    AB4H  
+[   0.250][d][vo/gpu-next/libplacebo]     rgba16s              SNORM  8    RGBA SsLRbBVutH-G n   {16 16 16 16} {16 16 16 16} vec4       rgba16_snorm       
+[   0.250][d][vo/gpu-next/libplacebo]     r32f                 FLOAT  4    R    SsLRbBVutHWG n   {32 0  0  0 } {32 0  0  0 } float      r32f             
+[   0.250][d][vo/gpu-next/libplacebo]     rg32f                FLOAT  8    RG   SsLRbBVutH-G n   {32 32 0  0 } {32 32 0  0 } vec2       rg32f            
+[   0.250][d][vo/gpu-next/libplacebo]     rgba32f              FLOAT  16   RGBA SsLRbBVutHWG n   {32 32 32 32} {32 32 32 32} vec4       rgba32f          
+[   0.250][d][vo/gpu-next/libplacebo]     bgra4                UNORM  2    BGRA S-LRb--u-H-G n   {4  4  4  4 } {4  4  4  4 } vec4                  AR12  
+[   0.250][d][vo/gpu-next/libplacebo]     bgr5a1               UNORM  2    BGRA S-LRb--u-H-G n   {5  5  5  1 } {5  5  5  1 } vec4                  AR15  
+[   0.250][d][vo/gpu-next/libplacebo]     bgr565               UNORM  2    BGR  S-LRb--u-H-G n   {5  6  5  0 } {5  6  5  0 } vec3                  RG16  
+[   0.250][d][vo/gpu-next/libplacebo]     bgrx8                UNORM  4    BGR  S-LRb-Vu-H-G n   {8  8  8  0 } {8  8  8  0 } vec3                        
+[   0.250][d][vo/gpu-next/libplacebo]     r8i                  SINT   1    R    Ss-R-BVutHW- n   {8  0  0  0 } {8  0  0  0 } int        r8i              
+[   0.250][d][vo/gpu-next/libplacebo]     r8u                  UINT   1    R    Ss-R-BVutHW- n   {8  0  0  0 } {8  0  0  0 } uint       r8ui             
+[   0.250][d][vo/gpu-next/libplacebo]     rg8i                 SINT   2    RG   Ss-R-BVutH-- n   {8  8  0  0 } {8  8  0  0 } ivec2      rg8i             
+[   0.250][d][vo/gpu-next/libplacebo]     rg8u                 UINT   2    RG   Ss-R-BVutH-- n   {8  8  0  0 } {8  8  0  0 } uvec2      rg8ui            
+[   0.250][d][vo/gpu-next/libplacebo]     rgba8i               SINT   4    RGBA Ss-R-BVutHW- n   {8  8  8  8 } {8  8  8  8 } ivec4      rgba8i           
+[   0.250][d][vo/gpu-next/libplacebo]     rgba8u               UINT   4    RGBA Ss-R-BVutHW- n   {8  8  8  8 } {8  8  8  8 } uvec4      rgba8ui          
+[   0.250][d][vo/gpu-next/libplacebo]     rgb10a2u             UINT   4    RGBA Ss-R-BVutH-- n   {10 10 10 2 } {10 10 10 2 } uvec4      rgb10_a2ui       
+[   0.250][d][vo/gpu-next/libplacebo]     r16i                 SINT   2    R    Ss-R-BVutHW- n   {16 0  0  0 } {16 0  0  0 } int        r16i             
+[   0.250][d][vo/gpu-next/libplacebo]     r16u                 UINT   2    R    Ss-R-BVutHW- n   {16 0  0  0 } {16 0  0  0 } uint       r16ui            
+[   0.250][d][vo/gpu-next/libplacebo]     rg16i                SINT   4    RG   Ss-R-BVutH-- n   {16 16 0  0 } {16 16 0  0 } ivec2      rg16i            
+[   0.250][d][vo/gpu-next/libplacebo]     rg16u                UINT   4    RG   Ss-R-BVutH-- n   {16 16 0  0 } {16 16 0  0 } uvec2      rg16ui           
+[   0.250][d][vo/gpu-next/libplacebo]     rgba16i              SINT   8    RGBA Ss-R-BVutHW- n   {16 16 16 16} {16 16 16 16} ivec4      rgba16i          
+[   0.250][d][vo/gpu-next/libplacebo]     rgba16u              UINT   8    RGBA Ss-R-BVutHW- n   {16 16 16 16} {16 16 16 16} uvec4      rgba16ui         
+[   0.250][d][vo/gpu-next/libplacebo]     r32i                 SINT   4    R    Ss-R-BVutHW- n   {32 0  0  0 } {32 0  0  0 } int        r32i             
+[   0.250][d][vo/gpu-next/libplacebo]     r32u                 UINT   4    R    Ss-R-BVutHW- n   {32 0  0  0 } {32 0  0  0 } uint       r32ui            
+[   0.250][d][vo/gpu-next/libplacebo]     rg32i                SINT   8    RG   Ss-R-BVutH-- n   {32 32 0  0 } {32 32 0  0 } ivec2      rg32i            
+[   0.250][d][vo/gpu-next/libplacebo]     rg32u                UINT   8    RG   Ss-R-BVutH-- n   {32 32 0  0 } {32 32 0  0 } uvec2      rg32ui           
+[   0.250][d][vo/gpu-next/libplacebo]     rgba32i              SINT   16   RGBA Ss-R-BVutHW- n   {32 32 32 32} {32 32 32 32} ivec4      rgba32i          
+[   0.250][d][vo/gpu-next/libplacebo]     rgba32u              UINT   16   RGBA Ss-R-BVutHW- n   {32 32 32 32} {32 32 32 32} uvec4      rgba32ui         
+[   0.250][d][vo/gpu-next/libplacebo]     rgb32f               FLOAT  12   RGB  S-L---Vu-H-- n   {32 32 32 0 } {32 32 32 0 } vec3                        
+[   0.250][d][vo/gpu-next/libplacebo]     rgb32i               SINT   12   RGB  S-----Vu-H-- n   {32 32 32 0 } {32 32 32 0 } ivec3                       
+[   0.250][d][vo/gpu-next/libplacebo]     rgb32u               UINT   12   RGB  S-----Vu-H-- n   {32 32 32 0 } {32 32 32 0 } uvec3                       
+[   0.250][d][vo/gpu-next/libplacebo]     rgb8                 UNORM  3    RGB  SsLRbBVutHWG y   {8  8  8  0 } {8  8  8  0 } vec3                  BG24  
+[   0.250][d][vo/gpu-next/libplacebo]     rgb16                UNORM  6    RGB  SsLRbBVutH-G y   {16 16 16 0 } {16 16 16 0 } vec3                        
+[   0.250][d][vo/gpu-next/libplacebo]     rgb16hf              FLOAT  6    RGB  SsLRbBVutHWG y   {16 16 16 0 } {16 16 16 0 } vec3                        
+[   0.250][d][vo/gpu-next/libplacebo]     r16f                 FLOAT  4    R    SsLRbBVutHWG y   {16 0  0  0 } {32 0  0  0 } float      r16f             
+[   0.250][d][vo/gpu-next/libplacebo]     rg16f                FLOAT  8    RG   SsLRbBVutH-G y   {16 16 0  0 } {32 32 0  0 } vec2       rg16f            
+[   0.250][d][vo/gpu-next/libplacebo]     rgb16f               FLOAT  12   RGB  SsLRbBVutHWG y   {16 16 16 0 } {32 32 32 0 } vec3                        
+[   0.250][d][vo/gpu-next/libplacebo]     rgba16f              FLOAT  16   RGBA SsLRbBVutHWG y   {16 16 16 16} {32 32 32 32} vec4       rgba16f          
+[   0.250][v][vo/gpu-next/libplacebo] Using flip-model presentation
+[   0.250][v][vo/gpu-next/libplacebo] Initial swap chain configuration: format: R10G10B10A2_UNORM, color space: RGB_FULL_G22_NONE_P709.
+[   0.250][d][global] cache path: '' -> 'D:/mpv/portable_config/cache'
+[   0.251][d][global] cache path: '' -> 'D:/mpv/portable_config/cache'
+[   0.251][v][vo/gpu-next/win32] DPI detected from the new API: 120
+[   0.251][v][vo/gpu-next/win32] display-fps: 59.999022
+[   0.254][v][vo/gpu-next/win32] color-profile: C:\Windows\system32\spool\drivers\color\sRGB Color Space Profile.icm
+[   0.254][v][vo/gpu-next] Assuming 59.999022 FPS for display sync.
+[   0.256][v][vo/gpu-next] reconfig to 960x540 yuv444p auto/auto/auto/auto/auto CL=unknown
+[   0.256][d][vo/gpu-next] max content size: 1920x1080
+[   0.256][d][vo/gpu-next] monitor size: 1920x1080
+[   0.256][v][vo/gpu-next/win32] reset window bounds: 1430:800:480:270
+[   0.256][v][vo/gpu-next/win32] resize window: 480:270
+[   0.276][v][vo/gpu-next/win32] resize window: 480:270
+[   0.284][v][vo/gpu-next] Window size: 480x270 (Borders: l=0 t=0 r=0 b=0)
+[   0.284][v][vo/gpu-next] Video source: 960x540 (1:1)
+[   0.284][v][vo/gpu-next] Video display: (0, 0) 960x540 -> (0, 0) 480x270
+[   0.284][v][vo/gpu-next] Video scale: 0.500000/0.500000
+[   0.284][v][vo/gpu-next] OSD borders: l=0 t=0 r=0 b=0
+[   0.284][v][vo/gpu-next] Video borders: l=0 t=0 r=0 b=0
+[   0.284][v][vo/gpu-next/libplacebo] Attempting to reconfigure swap chain format: R8G8B8A8_UNORM -> R10G10B10A2_UNORM
+[   0.286][v][vo/gpu-next] Window size: 480x270 (Borders: l=0 t=0 r=0 b=0)
+[   0.287][v][vo/gpu-next] Video source: 960x540 (1:1)
+[   0.287][v][vo/gpu-next] Video display: (0, 0) 960x540 -> (0, 0) 480x270
+[   0.287][v][vo/gpu-next] Video scale: 0.500000/0.500000
+[   0.287][v][vo/gpu-next] OSD borders: l=0 t=0 r=0 b=0
+[   0.287][v][vo/gpu-next] Video borders: l=0 t=0 r=0 b=0
+[   0.291][d][global] config path: 'scripts' -> 'D:/mpv/portable_config/scripts'
+[   0.293][d][thumbfast] Loading lua script D:/mpv/portable_config/scripts/thumbfast.lua...
+[   0.293][d][http_ytproxy] Loading lua script D:/mpv/portable_config/scripts/http-ytproxy/main.lua...
+[   0.293][d][thumbfast] loading mp.defaults
+[   0.295][d][uosc] Loading lua script D:/mpv/portable_config/scripts/uosc/main.lua...
+[   0.295][d][ytproxy] Loading lua script D:/mpv/portable_config/scripts/ytproxy.lua...
+[   0.295][d][thumbfast] loading file D:/mpv/portable_config/scripts/thumbfast.lua
+[   0.295][d][sponsorblock_shared] Loading lua script D:/mpv/portable_config/scripts/sponsorblock_shared/main.lua...
+[   0.295][d][sponsorblock] Loading lua script D:/mpv/portable_config/scripts/sponsorblock.lua...
+[   0.295][d][longtitlepatcher] Loading lua script D:/mpv/portable_config/scripts/longtitlepatcher.lua...
+[   0.295][d][protocol_hook] Loading lua script D:/mpv/portable_config/scripts/protocol_hook.lua...
+[   0.295][d][quality_menu] Loading lua script D:/mpv/portable_config/scripts/quality-menu.lua...
+[   0.295][d][streamsave] Loading lua script D:/mpv/portable_config/scripts/streamsave.lua...
+[   0.295][v][cplayer] Waiting for scripts...
+[   0.308][d][http_ytproxy] loading mp.defaults
+[   0.308][d][thumbfast] reading options for thumbfast
+[   0.308][d][global] config path: 'script-opts/thumbfast.conf' -> 'D:/mpv/portable_config/script-opts/thumbfast.conf'
+[   0.308][v][thumbfast] Opened config file script-opts/thumbfast.conf.
+[   0.308][d][http_ytproxy] loading file D:/mpv/portable_config/scripts/http-ytproxy/main.lua
+[   0.308][d][uosc] loading mp.defaults
+[   0.308][d][uosc] loading file D:/mpv/portable_config/scripts/uosc/main.lua
+[   0.308][d][ytproxy] loading mp.defaults
+[   0.308][d][ytproxy] loading file D:/mpv/portable_config/scripts/ytproxy.lua
+[   0.308][d][cplayer] Run command: script-message, flags=64, args=[args="uosc-version", args="5.2.0"]
+[   0.308][d][sponsorblock_shared] loading mp.defaults
+[   0.308][d][uosc] reading options for uosc
+[   0.308][d][global] config path: 'script-opts/uosc.conf' -> 'D:/mpv/portable_config/script-opts/uosc.conf'
+[   0.308][v][uosc] Opened config file script-opts/uosc.conf.
+[   0.308][d][sponsorblock_shared] loading file D:/mpv/portable_config/scripts/sponsorblock_shared/main.lua
+[   0.308][d][sponsorblock] loading mp.defaults
+[   0.308][d][longtitlepatcher] loading mp.defaults
+[   0.308][d][sponsorblock] loading file D:/mpv/portable_config/scripts/sponsorblock.lua
+[   0.308][d][longtitlepatcher] loading file D:/mpv/portable_config/scripts/longtitlepatcher.lua
+[   0.308][d][sponsorblock] reading options for sponsorblock
+[   0.308][d][global] config path: 'script-opts/sponsorblock.conf' -/-> 'D:/mpv/portable_config/script-opts/sponsorblock.conf'
+[   0.308][d][sponsorblock] script-opts/sponsorblock.conf not found.
+[   0.308][d][global] config path: 'lua-settings/sponsorblock.conf' -/-> 'D:/mpv/portable_config/lua-settings/sponsorblock.conf'
+[   0.308][d][sponsorblock] lua-settings/sponsorblock.conf not found.
+[   0.308][d][protocol_hook] loading mp.defaults
+[   0.308][d][global] config path: 'scripts' -> 'D:/mpv/portable_config/scripts'
+[   0.308][d][quality_menu] loading mp.defaults
+[   0.308][d][cplayer] Run command: define-section, flags=64, args=[name="input_sponsorblock", contents="g script-binding sponsorblock/set_segment\nG script-binding sponsorblock/submit_segment\nh script-binding sponsorblock/upvote_segment\nH script-binding sponsorblock/downvote_segment\n", flags="default"]
+[   0.308][d][cplayer] Run command: enable-section, flags=64, args=[name="input_sponsorblock", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.308][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_sponsorblock", contents="", flags="force"]
+[   0.308][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_sponsorblock", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.308][d][streamsave] loading mp.defaults
+[   0.308][d][protocol_hook] loading file D:/mpv/portable_config/scripts/protocol_hook.lua
+[   0.308][d][quality_menu] loading file D:/mpv/portable_config/scripts/quality-menu.lua
+[   0.308][d][streamsave] loading file D:/mpv/portable_config/scripts/streamsave.lua
+[   0.308][d][cplayer] Run command: define-section, flags=64, args=[name="mbtn_left", contents="mbtn_left script-binding uosc/__keybinding1\n", flags="force"]
+[   0.308][d][cplayer] Run command: define-section, flags=64, args=[name="mbtn_left_dbl", contents="mbtn_left_dbl ignore\n", flags="force"]
+[   0.308][d][cplayer] Run command: define-section, flags=64, args=[name="input_select", contents="", flags="default"]
+[   0.308][d][cplayer] Run command: enable-section, flags=64, args=[name="input_select", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.309][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_select", contents="", flags="force"]
+[   0.309][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_select", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.309][d][console] reading options for console
+[   0.309][d][global] config path: 'script-opts/console.conf' -/-> 'D:/mpv/portable_config/script-opts/console.conf'
+[   0.309][d][console] script-opts/console.conf not found.
+[   0.309][d][global] config path: 'lua-settings/console.conf' -/-> 'D:/mpv/portable_config/lua-settings/console.conf'
+[   0.309][d][console] lua-settings/console.conf not found.
+[   0.309][d][cplayer] Run command: define-section, flags=64, args=[name="input_stats", contents="", flags="default"]
+[   0.309][d][cplayer] Run command: enable-section, flags=64, args=[name="input_stats", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.309][d][cplayer] Run command: define-section, flags=64, args=[name="mbtn_right", contents="mbtn_right script-binding uosc/__keybinding2\n", flags="force"]
+[   0.309][d][cplayer] Run command: define-section, flags=64, args=[name="wheel", contents="wheel_up script-binding uosc/__keybinding3\nwheel_down script-binding uosc/__keybinding4\n", flags="force"]
+[   0.310][d][protocol_hook] reading options for protocol_hook
+[   0.310][d][global] config path: 'script-opts/protocol_hook.conf' -/-> 'D:/mpv/portable_config/script-opts/protocol_hook.conf'
+[   0.310][d][protocol_hook] script-opts/protocol_hook.conf not found.
+[   0.310][d][global] config path: 'lua-settings/protocol_hook.conf' -/-> 'D:/mpv/portable_config/lua-settings/protocol_hook.conf'
+[   0.310][d][protocol_hook] lua-settings/protocol_hook.conf not found.
+[   0.310][i][protocol_hook] 
+[   0.310][i][protocol_hook] false
+[   0.310][i][protocol_hook] 
+[   0.310][d][global] user path: '~~home/' -> 'D:/mpv/portable_config'
+[   0.310][i][protocol_hook] D:/mpv/portable_config
+[   0.310][i][protocol_hook] D:/mpv
+[   0.310][i][protocol_hook] D:/mpv
+[   0.310][i][protocol_hook] { ["cwd"] = ,["ipcMode"] = false,["proxy"] = ,["nogeometry"] = true,["stream_quality"] = 1080p,720p,best,worst,} 
+[   0.310][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_stats", contents="", flags="force"]
+[   0.310][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_stats", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.310][d][cplayer] Run command: define-section, flags=64, args=[name="input_console", contents="", flags="default"]
+[   0.310][d][cplayer] Run command: enable-section, flags=64, args=[name="input_console", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.310][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_console", contents="", flags="force"]
+[   0.310][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_console", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.313][d][quality_menu] reading options for quality-menu
+[   0.313][d][global] config path: 'script-opts/quality-menu.conf' -/-> 'D:/mpv/portable_config/script-opts/quality-menu.conf'
+[   0.313][d][quality_menu] script-opts/quality-menu.conf not found.
+[   0.313][d][global] config path: 'lua-settings/quality-menu.conf' -/-> 'D:/mpv/portable_config/lua-settings/quality-menu.conf'
+[   0.313][d][quality_menu] lua-settings/quality-menu.conf not found.
+[   0.313][d][streamsave] reading options for streamsave
+[   0.313][d][global] config path: 'script-opts/streamsave.conf' -> 'D:/mpv/portable_config/script-opts/streamsave.conf'
+[   0.313][v][streamsave] Opened config file script-opts/streamsave.conf.
+[   0.314][v][auto_profiles] Re-evaluating auto profile playlist-no-cookies
+[   0.315][d][global] config path: 'fonts' -> 'D:/mpv/portable_config/fonts'
+[   0.315][d][osd/libass] ASS library version: 0x1703000 (runtime 0x1703000)
+[   0.315][v][osd/libass] libass API version: 0x1703000
+[   0.315][v][osd/libass] libass source: meson, commit: 0.17.3-6-gc5bb87e2f5d6c18763b4614817c206a4f4d2332a
+[   0.315][v][osd/libass] Shaper: FriBidi 1.0.15 (SIMPLE) HarfBuzz-ng 9.0.0 (COMPLEX)
+[   0.315][d][global] config path: 'subfont.ttf' -/-> 'D:/mpv/portable_config/subfont.ttf'
+[   0.315][d][global] config path: 'fonts.conf' -/-> 'D:/mpv/portable_config/fonts.conf'
+[   0.315][v][osd/libass] Setting up fonts...
+[   0.316][v][osd/libass] Loading font file 'D:/mpv/portable_config/fonts\uosc_icons.otf'
+[   0.317][v][osd/libass] Loading font file 'D:/mpv/portable_config/fonts\uosc_textures.ttf'
+[   0.318][v][osd/libass] Using font provider directwrite (with GDI)
+[   0.318][v][osd/libass] Done.
+[   0.319][v][auto_profiles] Profile condition error on evaluating: [string "profile playlist-no-cookies condition"]:1: attempt to index global 'path' (a nil value)
+[   0.319][v][auto_profiles] Re-evaluating auto profile stream-no-ytdl
+[   0.319][v][auto_profiles] Profile condition error on evaluating: [string "profile stream-no-ytdl condition"]:1: bad argument #1 to 'find' (string expected, got nil)
+[   0.319][v][auto_profiles] Re-evaluating auto profile quality-youtube
+[   0.319][v][auto_profiles] Profile condition error on evaluating: [string "profile quality-youtube condition"]:1: bad argument #1 to 'find' (string expected, got nil)
+[   0.319][d][cplayer] Run command: script-message, flags=64, args=[args="thumbfast-info", args="{\"available\":true,\"overlay_id\":42,\"width\":450,\"socket\":\"thumbfast5460\",\"height\":253,\"thumbnail\":\"C:\\\\Users\\\\King1x32\\\\AppData\\\\Local\\\\Temp\\\\thumbfast.out5460\",\"disabled\":true}"]
+[   0.319][w][streamsave] Deprecation warning: the default setting of "no" has been changed
+[   0.319][w][streamsave] in favour of an empty string for the following options:
+[   0.319][w][streamsave] force_extension, force_title
+[   0.319][w][streamsave] Either delete these lines from your streamsave.conf
+[   0.319][w][streamsave] or assign nothing / leave the value blank.
+[   0.319][d][cplayer] Run command: script-message-to, flags=64, args=[target="uosc", args="get-version", args="quality_menu"]
+[   0.319][d][cplayer] Run command: script-message-to, flags=64, args=[target="uosc", args="set", args="vformats", args="0"]
+[   0.319][d][global] user path: '~~/' -> 'D:/mpv/portable_config'
+[   0.319][d][cplayer] Run command: script-message-to, flags=64, args=[target="uosc", args="set", args="aformats", args="0"]
+[   0.319][d][cplayer] Run command: script-message-to, flags=64, args=[target="uosc", args="overwrite-binding", args="stream-quality", args="script-binding quality_menu/video_formats_toggle"]
+[   0.319][d][cplayer] Run command: define-section, flags=64, args=[name="input_quality_menu", contents="", flags="default"]
+[   0.319][v][auto_profiles] Re-evaluating auto profile playlist-no-cookies
+[   0.319][v][auto_profiles] Profile condition error on evaluating: [string "profile playlist-no-cookies condition"]:1: attempt to index global 'path' (a nil value)
+[   0.319][v][auto_profiles] Re-evaluating auto profile stream-no-ytdl
+[   0.319][v][auto_profiles] Profile condition error on evaluating: [string "profile stream-no-ytdl condition"]:1: bad argument #1 to 'find' (string expected, got nil)
+[   0.319][v][auto_profiles] Re-evaluating auto profile quality-youtube
+[   0.319][v][auto_profiles] Profile condition error on evaluating: [string "profile quality-youtube condition"]:1: bad argument #1 to 'find' (string expected, got nil)
+[   0.321][d][cplayer] Run command: enable-section, flags=64, args=[name="input_quality_menu", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.321][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_quality_menu", contents="", flags="force"]
+[   0.321][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_quality_menu", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.321][d][cplayer] Run command: define-section, flags=64, args=[name="input_streamsave", contents="Alt+z script-binding streamsave/mode-switch\nCtrl+x script-binding streamsave/stop-cache-write\nAlt+x script-binding streamsave/align-cache\nCtrl+z script-binding streamsave/cache-write\n", flags="default"]
+[   0.321][d][cplayer] Run command: enable-section, flags=64, args=[name="input_streamsave", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.321][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_streamsave", contents="", flags="force"]
+[   0.321][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_streamsave", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.334][v][cplayer] Done loading scripts.
+[   0.334][d][global] state path: 'watch_later' -> 'D:/mpv/portable_config/watch_later'
+[   0.334][v][cplayer] Running hook: auto_profiles/on_before_start_file
+[   0.334][d][global] state path: 'watch_later' -> 'D:/mpv/portable_config/watch_later'
+[   0.335][i][cplayer] Resuming playback. This behavior can be disabled with --no-resume-playback.
+[   0.335][v][cplayer] Loading config 'D:/mpv/portable_config/watch_later/3C1AFF4208F9806B3F07348B3C767652'
+[   0.335][v][cplayer] Reading config file D:/mpv/portable_config/watch_later/3C1AFF4208F9806B3F07348B3C767652
+[   0.335][v][ifo_dvdnav] Opening D:/mpv/portable_config/watch_later/3C1AFF4208F9806B3F07348B3C767652
+[   0.335][v][bdmv/bluray] Opening D:/mpv/portable_config/watch_later/3C1AFF4208F9806B3F07348B3C767652
+[   0.335][v][file] Opening D:/mpv/portable_config/watch_later/3C1AFF4208F9806B3F07348B3C767652
+[   0.335][d][file] resize stream to 131072 bytes, drop 0 bytes
+[   0.335][d][file] Stream opened successfully.
+[   0.335][v][cplayer] Applying profile 'default'...
+[   0.335][v][cplayer] Setting option 'panscan' = '0.100000' (flags = 36)
+[   0.335][v][vo/gpu-next] Window size: 480x270 (Borders: l=0 t=0 r=0 b=0)
+[   0.335][v][vo/gpu-next] Video source: 960x540 (1:1)
+[   0.335][v][vo/gpu-next] Video display: (0, 0) 960x540 -> (0, 0) 480x270
+[   0.335][v][vo/gpu-next] Video scale: 0.500000/0.500000
+[   0.335][v][vo/gpu-next] OSD borders: l=0 t=0 r=0 b=0
+[   0.335][v][vo/gpu-next] Video borders: l=0 t=0 r=0 b=0
+[   0.336][v][cplayer] Setting option 'sub-ass-override' = 'force' (flags = 36)
+[   0.336][v][cplayer] Running hook: protocol_hook/on_load
+[   0.336][v][auto_profiles] Re-evaluating auto profile playlist-no-cookies
+[   0.337][v][auto_profiles] Re-evaluating auto profile stream-no-ytdl
+[   0.337][d][cplayer] Run command: define-section, flags=64, args=[name="input_uosc", contents="", flags="default"]
+[   0.337][v][auto_profiles] Re-evaluating auto profile quality-youtube
+[   0.337][i][ytproxy] Current Working Directory: D:\mpv
+[   0.337][i][ytproxy] D:\mpv
+[   0.337][i][protocol_hook] not a mpv url: -
+[   0.337][v][cplayer] Running hook: quality_menu/on_load
+[   0.337][d][cplayer] Run command: enable-section, flags=64, args=[name="input_uosc", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.337][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_uosc", contents="", flags="force"]
+[   0.337][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_uosc", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.337][d][cplayer] Run command: script-message-to, flags=64, args=[target="uosc", args="set", args="vformats", args="0"]
+[   0.337][d][cplayer] Run command: script-message-to, flags=64, args=[target="uosc", args="set", args="aformats", args="0"]
+[   0.338][v][auto_profiles] Re-evaluating auto profile playlist-no-cookies
+[   0.338][d][global] config path: 'fonts' -> 'D:/mpv/portable_config/fonts'
+[   0.338][d][osd/libass] ASS library version: 0x1703000 (runtime 0x1703000)
+[   0.338][v][osd/libass] libass API version: 0x1703000
+[   0.338][v][osd/libass] libass source: meson, commit: 0.17.3-6-gc5bb87e2f5d6c18763b4614817c206a4f4d2332a
+[   0.338][v][osd/libass] Shaper: FriBidi 1.0.15 (SIMPLE) HarfBuzz-ng 9.0.0 (COMPLEX)
+[   0.338][d][global] config path: 'subfont.ttf' -/-> 'D:/mpv/portable_config/subfont.ttf'
+[   0.338][d][global] config path: 'fonts.conf' -/-> 'D:/mpv/portable_config/fonts.conf'
+[   0.338][v][osd/libass] Setting up fonts...
+[   0.339][v][osd/libass] Loading font file 'D:/mpv/portable_config/fonts\uosc_icons.otf'
+[   0.340][v][osd/libass] Loading font file 'D:/mpv/portable_config/fonts\uosc_textures.ttf'
+[   0.341][v][osd/libass] Using font provider directwrite (with GDI)
+[   0.341][v][osd/libass] Done.
+[   0.342][v][cplayer] Running hook: ytdl_hook/on_load
+[   0.342][v][cplayer] Running hook: ytdl_hook/on_load
+[   0.342][v][ytdl_hook] playlist hook
+[   0.342][v][cplayer] Running hook: auto_profiles/on_load
+[   0.343][v][ifo_dvdnav] Opening -
+[   0.343][v][bdmv/bluray] Opening -
+[   0.343][v][file] Opening -
+[   0.343][i][file] Reading from stdin...
+[   0.343][d][file] resize stream to 131072 bytes, drop 0 bytes
+[   0.343][d][file] Stream opened successfully.
+[   0.343][v][demux] Trying demuxers for level=normal.
+[   0.343][d][demux] Trying demuxer: disc (force-level: normal)
+[   0.343][d][demux] Trying demuxer: edl (force-level: normal)
+[   0.346][d][global] config path: 'fonts' -> 'D:/mpv/portable_config/fonts'
+[   0.346][d][osd/libass] ASS library version: 0x1703000 (runtime 0x1703000)
+[   0.346][v][osd/libass] libass API version: 0x1703000
+[   0.346][v][osd/libass] libass source: meson, commit: 0.17.3-6-gc5bb87e2f5d6c18763b4614817c206a4f4d2332a
+[   0.346][v][osd/libass] Shaper: FriBidi 1.0.15 (SIMPLE) HarfBuzz-ng 9.0.0 (COMPLEX)
+[   0.346][d][global] config path: 'subfont.ttf' -/-> 'D:/mpv/portable_config/subfont.ttf'
+[   0.346][d][global] config path: 'fonts.conf' -/-> 'D:/mpv/portable_config/fonts.conf'
+[   0.346][v][osd/libass] Setting up fonts...
+[   0.347][v][osd/libass] Loading font file 'D:/mpv/portable_config/fonts\uosc_icons.otf'
+[   0.348][v][osd/libass] Loading font file 'D:/mpv/portable_config/fonts\uosc_textures.ttf'
+[   0.349][v][osd/libass] Using font provider directwrite (with GDI)
+[   0.349][v][osd/libass] Done.
+[   0.383][v][osd/libass] fontselect: (sans-serif, 400, 0) -> ArialMT, 0, ArialMT
+[   0.383][d][vo/gpu-next/libplacebo] (Re)creating 480x270x0 texture with format r8: unknown
+[   0.384][d][vo/gpu-next/libplacebo] vertex shader source:
+[   0.384][d][vo/gpu-next/libplacebo] [  1] #version 450
+[   0.384][d][vo/gpu-next/libplacebo] [  2] #extension GL_ARB_uniform_buffer_object : enable
+[   0.384][d][vo/gpu-next/libplacebo] [  3] #extension GL_ARB_texture_gather : enable
+[   0.384][d][vo/gpu-next/libplacebo] [  4] layout(binding=0) uniform  sampler2D _2;
+[   0.384][d][vo/gpu-next/libplacebo] [  5] layout(std140, binding=1) uniform _d {
+[   0.384][d][vo/gpu-next/libplacebo] [  6]     layout(offset=0) mat3 _5;
+[   0.384][d][vo/gpu-next/libplacebo] [  7]     layout(offset=48) mat3 _6;
+[   0.384][d][vo/gpu-next/libplacebo] [  8] };
+[   0.384][d][vo/gpu-next/libplacebo] [  9] layout(location=0) in vec2 _e;
+[   0.384][d][vo/gpu-next/libplacebo] [ 10] layout(location=1) in vec2 _f;
+[   0.384][d][vo/gpu-next/libplacebo] [ 11] layout(location=1) out vec2 _b;
+[   0.384][d][vo/gpu-next/libplacebo] [ 12] layout(location=2) in vec4 _10;
+[   0.384][d][vo/gpu-next/libplacebo] [ 13] layout(location=2) out vec4 _c;
+[   0.384][d][vo/gpu-next/libplacebo] [ 14] void main() {
+[   0.384][d][vo/gpu-next/libplacebo] [ 15] vec2 va_pos = _e; 
+[   0.384][d][vo/gpu-next/libplacebo] [ 16] gl_Position = vec4(va_pos, 0.0, 1.0); 
+[   0.384][d][vo/gpu-next/libplacebo] [ 17] _b = _f;
+[   0.384][d][vo/gpu-next/libplacebo] [ 18] _c = _10;
+[   0.384][d][vo/gpu-next/libplacebo] [ 19] }
+[   0.384][d][vo/gpu-next/libplacebo] fragment shader source:
+[   0.384][d][vo/gpu-next/libplacebo] [  1] #version 450
+[   0.384][d][vo/gpu-next/libplacebo] [  2] #extension GL_ARB_uniform_buffer_object : enable
+[   0.384][d][vo/gpu-next/libplacebo] [  3] #extension GL_ARB_texture_gather : enable
+[   0.384][d][vo/gpu-next/libplacebo] [  4] layout(binding=0) uniform  sampler2D _2;
+[   0.384][d][vo/gpu-next/libplacebo] [  5] layout(std140, binding=1) uniform _d {
+[   0.384][d][vo/gpu-next/libplacebo] [  6]     layout(offset=0) mat3 _5;
+[   0.384][d][vo/gpu-next/libplacebo] [  7]     layout(offset=48) mat3 _6;
+[   0.384][d][vo/gpu-next/libplacebo] [  8] };
+[   0.384][d][vo/gpu-next/libplacebo] [  9] layout(location=1) in vec2 _b;
+[   0.384][d][vo/gpu-next/libplacebo] [ 10] layout(location=2) in vec4 _c;
+[   0.384][d][vo/gpu-next/libplacebo] [ 11] layout(location=0) out vec4 out_color;
+[   0.384][d][vo/gpu-next/libplacebo] [ 12] #define pos _a
+[   0.384][d][vo/gpu-next/libplacebo] [ 13] #define coord _b
+[   0.384][d][vo/gpu-next/libplacebo] [ 14] #define osd_color _c
+[   0.384][d][vo/gpu-next/libplacebo] [ 15] 
+[   0.384][d][vo/gpu-next/libplacebo] [ 16] const float _3 = float(0.9990000128746033); 
+[   0.384][d][vo/gpu-next/libplacebo] [ 17] const float _4 = float(0.0009999999310821295); 
+[   0.384][d][vo/gpu-next/libplacebo] [ 18] const float _7 = float(1.149015188217163); 
+[   0.384][d][vo/gpu-next/libplacebo] [ 19] const float _8 = float(0.0595848374068737); 
+[   0.384][d][vo/gpu-next/libplacebo] [ 20] vec4 _1() {
+[   0.384][d][vo/gpu-next/libplacebo] [ 21] // overlay 
+[   0.384][d][vo/gpu-next/libplacebo] [ 22] vec4 color = osd_color; 
+[   0.384][d][vo/gpu-next/libplacebo] [ 23] // pl_shader_decode_color 
+[   0.384][d][vo/gpu-next/libplacebo] [ 24] { 
+[   0.384][d][vo/gpu-next/libplacebo] [ 25] }
+[   0.384][d][vo/gpu-next/libplacebo] [ 26] // pl_shader_color_map 
+[   0.385][d][vo/gpu-next/libplacebo] [ 27] {                      
+[   0.385][d][vo/gpu-next/libplacebo] [ 28] // pl_shader_linearize           
+[   0.385][d][vo/gpu-next/libplacebo] [ 29] color.rgb = max(color.rgb, 0.0); 
+[   0.385][d][vo/gpu-next/libplacebo] [ 30] color.rgb = mix(color.rgb * vec3(1.0/12.92),               
+[   0.385][d][vo/gpu-next/libplacebo] [ 31]                 pow((color.rgb + vec3(0.055))/vec3(1.055), 
+[   0.385][d][vo/gpu-next/libplacebo] [ 32]                     vec3(2.4)),                            
+[   0.385][d][vo/gpu-next/libplacebo] [ 33]                 lessThan(vec3(0.04045), color.rgb));       
+[   0.385][d][vo/gpu-next/libplacebo] [ 34] color.rgb = _3 * color.rgb + vec3(_4); 
+[   0.385][d][vo/gpu-next/libplacebo] [ 35] // pl_shader_delinearize 
+[   0.385][d][vo/gpu-next/libplacebo] [ 36] color.rgb = max(color.rgb, 0.0); 
+[   0.385][d][vo/gpu-next/libplacebo] [ 37] color.rgb = pow(_7 * color.rgb, vec3(1.0/2.4)) - vec3(_8); 
+[   0.385][d][vo/gpu-next/libplacebo] [ 38] }
+[   0.385][d][vo/gpu-next/libplacebo] [ 39] // pl_shader_encode_color 
+[   0.385][d][vo/gpu-next/libplacebo] [ 40] { 
+[   0.385][d][vo/gpu-next/libplacebo] [ 41] color.rgb *= vec3(color.a); 
+[   0.385][d][vo/gpu-next/libplacebo] [ 42] }
+[   0.385][d][vo/gpu-next/libplacebo] [ 43] color.rgba *= textureLod(_2, coord, 0.0).r; 
+[   0.385][d][vo/gpu-next/libplacebo] [ 44] vec4 _9 = color;                 
+[   0.385][d][vo/gpu-next/libplacebo] [ 45] color = vec4(0.0, 0.0, 0.0, 1.0); 
+[   0.385][d][vo/gpu-next/libplacebo] [ 46] color[0] = _9[0]; 
+[   0.385][d][vo/gpu-next/libplacebo] [ 47] color[1] = _9[1]; 
+[   0.385][d][vo/gpu-next/libplacebo] [ 48] color[2] = _9[2]; 
+[   0.385][d][vo/gpu-next/libplacebo] [ 49] color[3] = _9[3]; 
+[   0.385][d][vo/gpu-next/libplacebo] [ 50] color.a = _9.a; 
+[   0.385][d][vo/gpu-next/libplacebo] [ 51] return color;
+[   0.385][d][vo/gpu-next/libplacebo] [ 52] }
+[   0.385][d][vo/gpu-next/libplacebo] [ 53] 
+[   0.385][d][vo/gpu-next/libplacebo] [ 54] void main() {
+[   0.385][d][vo/gpu-next/libplacebo] [ 55] out_color = _1();
+[   0.385][d][vo/gpu-next/libplacebo] [ 56] }
+[   0.446][d][vo/gpu-next] cache_load_obj: key(3360a918d23142a5), size(2077), load time(61.389 ms)
+[   0.446][d][vo/gpu-next/libplacebo] Using cached DXBC shaders
+[   0.447][d][vo/gpu-next] cache_save_obj: key(3360a918d23142a5), size(2077)
+[   0.448][d][cplayer] Run command: script-message, flags=64, args=[args="thumbfast-info", args="{\"available\":true,\"overlay_id\":42,\"width\":450,\"socket\":\"thumbfast5460\",\"height\":253,\"thumbnail\":\"C:\\\\Users\\\\King1x32\\\\AppData\\\\Local\\\\Temp\\\\thumbfast.out5460\",\"disabled\":false}"]
+[   0.821][d][cplayer] Run command: script-message, flags=64, args=[args="thumbfast-info", args="{\"available\":true,\"overlay_id\":42,\"width\":450,\"socket\":\"thumbfast5460\",\"height\":253,\"thumbnail\":\"C:\\\\Users\\\\King1x32\\\\AppData\\\\Local\\\\Temp\\\\thumbfast.out5460\",\"disabled\":false}"]
+[   0.871][d][cplayer] Run command: script-message, flags=64, args=[args="thumbfast-info", args="{\"available\":true,\"overlay_id\":42,\"width\":450,\"socket\":\"thumbfast5460\",\"height\":253,\"thumbnail\":\"C:\\\\Users\\\\King1x32\\\\AppData\\\\Local\\\\Temp\\\\thumbfast.out5460\",\"disabled\":false}"]
+[   6.648][d][demux] Trying demuxer: cue (force-level: normal)
+[   6.648][d][demux] Trying demuxer: rawaudio (force-level: normal)
+[   6.648][d][demux] Trying demuxer: rawvideo (force-level: normal)
+[   6.648][d][demux] Trying demuxer: mkv (force-level: normal)
+[   6.648][d][demux] Trying demuxer: libarchive (force-level: normal)
+[   6.648][d][demux] Trying demuxer: lavf (force-level: normal)
+[   6.651][v][lavf] Found 'mpegts' at score=100 size=0 (forced).
+[   6.653][w][ffmpeg/demuxer] mpegts: Could not detect TS packet size, defaulting to non-FEC/DVHS
+[   6.653][e][lavf] av_find_stream_info() failed
+[   6.653][d][demux] Trying demuxer: mf (force-level: normal)
+[   6.653][d][demux] Trying demuxer: playlist (force-level: normal)
+[   6.653][d][demux] Trying demuxer: null (force-level: normal)
+[   6.653][v][demux] Trying demuxers for level=unsafe.
+[   6.653][d][demux] Trying demuxer: disc (force-level: unsafe)
+[   6.653][d][demux] Trying demuxer: edl (force-level: unsafe)
+[   6.653][d][demux] Trying demuxer: cue (force-level: unsafe)
+[   6.653][d][demux] Trying demuxer: rawaudio (force-level: unsafe)
+[   6.653][d][demux] Trying demuxer: rawvideo (force-level: unsafe)
+[   6.653][d][demux] Trying demuxer: mkv (force-level: unsafe)
+[   6.653][d][demux] Trying demuxer: libarchive (force-level: unsafe)
+[   6.653][d][file] resize stream to 262144 bytes, drop 0 bytes
+[   6.654][d][demux] Trying demuxer: lavf (force-level: unsafe)
+[   6.657][v][lavf] Found 'mpegts' at score=100 size=0 (forced).
+[   6.659][d][file] resize stream to 131072 bytes, drop 0 bytes
+[   6.659][w][ffmpeg/demuxer] mpegts: Could not detect TS packet size, defaulting to non-FEC/DVHS
+[   6.659][e][lavf] av_find_stream_info() failed
+[   6.659][d][demux] Trying demuxer: mf (force-level: unsafe)
+[   6.659][d][demux] Trying demuxer: playlist (force-level: unsafe)
+[   6.659][d][demux] Trying demuxer: null (force-level: unsafe)
+[   6.659][v][cplayer] Opening failed or was aborted: -
+[   6.659][v][cplayer] Running hook: ytdl_hook/on_load_fail
+[   6.662][v][cplayer] finished playback, unrecognized file format (reason 4)
+[   6.662][e][cplayer] Failed to recognize file format.
+[   6.662][i][cplayer] Exiting... (Errors when loading file)
+[   6.662][d][console] Exiting...
+[   6.662][d][select] Exiting...
+[   6.662][d][stats] Exiting...
+[   6.662][d][auto_profiles] Exiting...
+[   6.662][d][http_ytproxy] Exiting...
+[   6.662][d][thumbfast] Exiting...
+[   6.662][d][ytproxy] Exiting...
+[   6.662][d][sponsorblock_shared] Exiting...
+[   6.662][d][sponsorblock] Exiting...
+[   6.662][d][longtitlepatcher] Exiting...
+[   6.662][d][protocol_hook] Exiting...
+[   6.662][d][quality_menu] Exiting...
+[   6.662][d][streamsave] Exiting...
+[   6.662][d][ytdl_hook] Exiting...
+[   6.662][d][uosc] Exiting...
+[   6.695][v][vo/gpu-next/win32] uninit

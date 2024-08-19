@@ -20,7 +20,7 @@ function Check-7z {
         $null = New-Item -ItemType Directory -Force (Split-Path $fallback7z)
         $download_file = $fallback7z
         Write-Host "Downloading 7zr.exe" -ForegroundColor Green
-        Invoke-WebRequest -Uri "https://www.7-zip.org/a/7zr.exe" -UserAgent [Microsoft.PowerShell.Commands.PSUserAgent]::FireFox -OutFile $download_file
+        aria2c -x 16 -s 16 -j 16 -k 10M -o $download_file "https://www.7-zip.org/a/7zr.exe"
     }
     else {
         Write-Host "7z already exist. Skipped download" -ForegroundColor Green
@@ -38,7 +38,7 @@ function Check-PowershellVersion {
 
 function Download-Archive ($filename, $link) {
     Write-Host "Downloading" $filename -ForegroundColor Green
-    Invoke-WebRequest -Uri $link -UserAgent [Microsoft.PowerShell.Commands.PSUserAgent]::FireFox -OutFile $filename
+    aria2c -x 16 -s 16 -j 16 -k 10M -o $filename $link
 }
 
 function Extract-Archive ($file) {
