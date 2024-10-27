@@ -23,10 +23,7 @@ user_pref("network.dns.skipTRR-when-parental-control-enabled", false);
 user_pref("network.http.altsvc.enabled", true);
 user_pref("network.http.altsvc.oe", true);
 user_pref("network.http.altsvc.proxy_checks", true);
-user_pref(
-  "network.http.http3.alt-svc-mapping-for-testing",
-  'doh3.dns.nextdns.io;h3=":443";quicv="6b3343cf,1",dns.nextdns.io;h3=":443";quicv="6b3343cf,1"',
-);
+user_pref("network.http.http3.alt-svc-mapping-for-testing", 'doh3.dns.nextdns.io;h3=":443";quicv="6b3343cf,1",dns.nextdns.io;h3=":443";quicv="6b3343cf,1"');
 user_pref("network.http.http3.send_background_tabs_deprioritization", true);
 user_pref("network.http.http3.version_negotiation.enabled", true);
 user_pref("network.http.speculative-parallel-limit", 0);
@@ -36,14 +33,8 @@ user_pref("network.trr.async_connInfo", true);
 user_pref("network.trr.confirmation_telemetry_enabled", false);
 user_pref("network.trr.bootstrapAddress", "45.90.28.0");
 user_pref("network.trr.confirmationNS", "skip");
-user_pref(
-  "network.trr.custom_uri",
-  "https://doh3.dns.nextdns.io/47d74e/Firefox%20Win",
-);
-user_pref(
-  "network.trr.default_provider_uri",
-  "https://doh3.dns.nextdns.io/47d74e/Firefox%20Win",
-);
+user_pref("network.trr.custom_uri", "https://doh3.dns.nextdns.io/47d74e/Firefox%20Win");
+user_pref("network.trr.default_provider_uri", "https://doh3.dns.nextdns.io/47d74e/Firefox%20Win");
 user_pref("network.trr.disable-ECS", false);
 user_pref("network.trr.early-AAAA", true);
 user_pref("network.trr.enable_when_nrpt_detected", true);
@@ -51,10 +42,7 @@ user_pref("network.trr.enable_when_proxy_detected", true);
 user_pref("network.trr.enable_when_vpn_detected", true);
 user_pref("network.trr.mode", 3);
 // user_pref("network.trr.send_user-agent_headers", true);
-user_pref(
-  "network.trr.uri",
-  "https://doh3.dns.nextdns.io/47d74e/Firefox%20Win",
-);
+user_pref("network.trr.uri", "https://doh3.dns.nextdns.io/47d74e/Firefox%20Win");
 user_pref("network.trr.wait-for-A-and-AAAA", false);
 user_pref("network.dnsCacheEntries", -1);
 user_pref("nglayout.initialpaint.delay", 2000);
