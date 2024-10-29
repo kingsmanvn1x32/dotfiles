@@ -85,8 +85,8 @@ user_pref("layout.word_select.eat_space_to_next_word", false);
 // user_pref("gfx.webrender.super-resolution.nvidia", true);
 user_pref("browser.startup.preXulSkeletonUI", false);
 user_pref("devtools.jsonview.enabled", true);
-user_pref("security.tls.enable_kyber", true);
-user_pref("network.http.http3.enable_kyber", true);
+user_pref("security.tls.enable_kyber", false);
+user_pref("network.http.http3.enable_kyber", false);
 user_pref("browser.cache.jsbc_compression_level", 2);
 user_pref("dom.script_loader.bytecode_cache.strategy", -1);
 user_pref("javascript.options.mem.gc_balanced_heap_limits", true);
@@ -311,7 +311,7 @@ user_pref("privacy.sanitize.useOldClearHistoryDialog", true);
 //user_pref("network.trr.disable-ECS", false);
 
 // Enable Kyber to access blocked websites
-user_pref("security.tls.enable_kyber", true);
+user_pref("security.tls.enable_kyber", false);
 
 // Reduce network request
 // https://voz.vn/t/tong-hop-nhung-addon-chat-cho-firefox-pc-mobile.682181/post-27409530

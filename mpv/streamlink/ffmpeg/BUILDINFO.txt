@@ -1,9 +1,0 @@
-Streamlink FFmpeg Builds <https://github.com/streamlink/FFmpeg-Builds>
-
-Commit: 2f7136ee9cf4eaa0584816c6c227887c74a68537
-Build: ffmpeg-n7.0-7-gd38bf5e08e-win64-gpl-7.0
-
-Configuration:
-  --enable-gpl
-  --enable-version3
-  --disable-debug
