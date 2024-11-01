@@ -108,6 +108,7 @@ user_pref("javascript.options.spectre.object_mitigations", false);
 user_pref("javascript.options.spectre.string_mitigations", false);
 user_pref("javascript.options.spectre.value_masking", false);
 user_pref("javascript.options.wasm_experimental_compile_pipeline", true);
+user_pref("browser.tabs.groups.enabled", true);
 
 // Theme firefox android beautiful
 // user_pref("browser.display.use_system_colors", false);
