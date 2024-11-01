@@ -24,10 +24,7 @@ user_pref("network.dns.skipTRR-when-parental-control-enabled", false);
 user_pref("network.http.altsvc.enabled", true);
 user_pref("network.http.altsvc.oe", true);
 user_pref("network.http.altsvc.proxy_checks", true);
-user_pref(
-  "network.http.http3.alt-svc-mapping-for-testing",
-  'doh3.dns.nextdns.io;h3=":443";quicv="6b3343cf,1",dns.nextdns.io;h3=":443";quicv="6b3343cf,1"',
-);
+user_pref("network.http.http3.alt-svc-mapping-for-testing", 'doh3.dns.nextdns.io;h3=":443";quicv="6b3343cf,1",dns.nextdns.io;h3=":443";quicv="6b3343cf,1"');
 user_pref("network.http.http3.send_background_tabs_deprioritization", true);
 user_pref("network.http.http3.version_negotiation.enabled", true);
 user_pref("network.http.speculative-parallel-limit", 0);
@@ -37,14 +34,8 @@ user_pref("network.trr.async_connInfo", true);
 user_pref("network.trr.confirmation_telemetry_enabled", false);
 user_pref("network.trr.bootstrapAddress", "45.90.28.101");
 user_pref("network.trr.confirmationNS", "skip");
-user_pref(
-  "network.trr.custom_uri",
-  "https://doh3.dns.nextdns.io/47d74e/kingsmanvn-firefox-adr",
-);
-user_pref(
-  "network.trr.default_provider_uri",
-  "https://doh3.dns.nextdns.io/47d74e/kingsmanvn-firefox-adr",
-);
+user_pref("network.trr.custom_uri", "https://doh3.dns.nextdns.io/47d74e/kingsmanvn-firefox-adr");
+user_pref("network.trr.default_provider_uri", "https://doh3.dns.nextdns.io/47d74e/kingsmanvn-firefox-adr");
 user_pref("network.trr.disable-ECS", false);
 user_pref("network.trr.early-AAAA", true);
 user_pref("network.trr.enable_when_nrpt_detected", true);
@@ -52,10 +43,7 @@ user_pref("network.trr.enable_when_proxy_detected", true);
 user_pref("network.trr.enable_when_vpn_detected", true);
 user_pref("network.trr.mode", 3);
 // user_pref("network.trr.send_user-agent_headers", true);
-user_pref(
-  "network.trr.uri",
-  "https://doh3.dns.nextdns.io/47d74e/kingsmanvn-firefox-win",
-);
+user_pref("network.trr.uri", "https://doh3.dns.nextdns.io/47d74e/kingsmanvn-firefox-win");
 user_pref("network.trr.wait-for-A-and-AAAA", false);
 user_pref("network.dnsCacheEntries", -1);
 user_pref("nglayout.initialpaint.delay", 2000);
@@ -125,8 +113,8 @@ user_pref("apz.android.chrome_fling_physics.friction", "0.040");
 user_pref("apz.android.chrome_fling_physics.inflexion", "0.70");
 // user_pref("gfx.webrender.super-resolution.nvidia", true);
 user_pref("devtools.jsonview.enabled", true);
-user_pref("security.tls.enable_kyber", true);
-user_pref("network.http.http3.enable_kyber", true);
+user_pref("security.tls.enable_kyber", false);
+user_pref("network.http.http3.enable_kyber", false);
 user_pref("browser.cache.jsbc_compression_level", 2);
 user_pref("dom.textMetrics.fontBoundingBox.enabled", true);
 user_pref("dom.ipc.processPriorityManager.backgroundUsesEcoQoS", true);
@@ -294,10 +282,10 @@ user_pref("privacy.sanitize.useOldClearHistoryDialog", true);
 //user_pref("network.trr.mode", 2);
 
 // Enable ECS
-//user_pref("network.trr.disable-ECS", false);
+user_pref("network.trr.disable-ECS", false);
 
 // Enable Kyber to access blocked websites
-user_pref("security.tls.enable_kyber", true);
+user_pref("security.tls.enable_kyber", false);
 
 // Reduce network request
 // https://voz.vn/t/tong-hop-nhung-addon-chat-cho-firefox-pc-mobile.682181/post-27409530
@@ -442,14 +430,8 @@ user_pref("extensions.getAddons.showPane", false);
 user_pref("extensions.htmlaboutaddons.recommendations.enabled", false);
 user_pref("browser.discovery.enabled", false);
 user_pref("browser.shell.checkDefaultBrowser", false);
-user_pref(
-  "browser.newtabpage.activity-stream.asrouter.userprefs.cfr.addons",
-  false,
-);
-user_pref(
-  "browser.newtabpage.activity-stream.asrouter.userprefs.cfr.features",
-  false,
-);
+user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.addons", false);
+user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.features", false);
 user_pref("browser.preferences.moreFromMozilla", false);
 user_pref("browser.tabs.tabmanager.enabled", false);
 user_pref("browser.aboutConfig.showWarning", false);
